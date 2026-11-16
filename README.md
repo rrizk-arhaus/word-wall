@@ -8,6 +8,7 @@ People open the site on their phones and send one word. A separate screen at `/d
 - `/postcards` — presenter screen: draws 4 random postcards to walk through
 - `/postcards/export` — every postcard as a printable playbook; opens the print dialog so you can save it as a PDF
 - `/lesson` — one-field form: one lesson to carry into go-live
+- `/lessons` — every lesson on one page, refreshing every few seconds, with a Download PDF button (opens the print dialog; choose Save as PDF)
 - `/api/lessons` — GET all lessons, POST `{ "lesson": "..." }`, DELETE `{ "key": "<ADMIN_KEY>" }` to clear
 - `/api/words` — GET results, POST `{ "word": "..." }`
 - `/api/reset` — POST `{ "key": "<ADMIN_KEY>" }` to clear (the Clear button on /display does this)
